@@ -19,7 +19,7 @@ namespace Swapping
             AlignTextToRight,
             AlignTextToCenter,
        };
-       TextFunctionality textfunctionality = new TextFunctionality();
+        TextFunctionality textfunctionality = new TextFunctionality();
         public void OptionsController(List<string> words, List<string> allLines, int fixedLength)
         {
             bool isContinueFurther = true;
